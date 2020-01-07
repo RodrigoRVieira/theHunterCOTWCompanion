@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COTWOCRConsole", "COTWOCRConsole\COTWOCRConsole.csproj", "{F4EBED67-A6C2-43FE-925A-AF1E32AD20EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0A790227-D689-40EE-ABEE-B769DBD03DB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLShortenerService", "URLShortenerService\URLShortenerService.csproj", "{CFB3A183-C11F-4EED-AED3-073E20712DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{10DFDAC2-05D6-4964-BEB8-3C0A027A8D31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{CC72A499-5086-4F91-B850-3EA8A50879D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCRRecognizerService", "OCRRecognizerService\OCRRecognizerService.csproj", "{BBCFEC65-8364-4D52-A513-CA86E455071D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService", "StorageService\StorageService.csproj", "{2E93ED47-AC7C-4E45-8F67-FD93DBD22DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4EBED67-A6C2-43FE-925A-AF1E32AD20EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EBED67-A6C2-43FE-925A-AF1E32AD20EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EBED67-A6C2-43FE-925A-AF1E32AD20EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EBED67-A6C2-43FE-925A-AF1E32AD20EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB3A183-C11F-4EED-AED3-073E20712DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB3A183-C11F-4EED-AED3-073E20712DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB3A183-C11F-4EED-AED3-073E20712DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB3A183-C11F-4EED-AED3-073E20712DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC72A499-5086-4F91-B850-3EA8A50879D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC72A499-5086-4F91-B850-3EA8A50879D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC72A499-5086-4F91-B850-3EA8A50879D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC72A499-5086-4F91-B850-3EA8A50879D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCFEC65-8364-4D52-A513-CA86E455071D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCFEC65-8364-4D52-A513-CA86E455071D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCFEC65-8364-4D52-A513-CA86E455071D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCFEC65-8364-4D52-A513-CA86E455071D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E93ED47-AC7C-4E45-8F67-FD93DBD22DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E93ED47-AC7C-4E45-8F67-FD93DBD22DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E93ED47-AC7C-4E45-8F67-FD93DBD22DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E93ED47-AC7C-4E45-8F67-FD93DBD22DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFB3A183-C11F-4EED-AED3-073E20712DAB} = {0A790227-D689-40EE-ABEE-B769DBD03DB4}
+		{CC72A499-5086-4F91-B850-3EA8A50879D2} = {10DFDAC2-05D6-4964-BEB8-3C0A027A8D31}
+		{BBCFEC65-8364-4D52-A513-CA86E455071D} = {0A790227-D689-40EE-ABEE-B769DBD03DB4}
+		{2E93ED47-AC7C-4E45-8F67-FD93DBD22DBE} = {0A790227-D689-40EE-ABEE-B769DBD03DB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19EC8CB8-87C4-4324-AD0A-3D526ABB439B}
+	EndGlobalSection
+EndGlobal

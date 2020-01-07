@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "COTWOCRConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "--hunterid mcbacker --folder \"C:\\Users\\McBacker\\source\\repos\\OCRPlayground\\COTWOCRConsole\\bin\\Debug\\netcoreapp3.1\\win-x64\""
+    }
+  }
+}

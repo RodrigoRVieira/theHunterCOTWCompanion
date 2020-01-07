@@ -1,5 +1,5 @@
 # COTWOCRConsole
-This repository mantains the Visual Studio solution used to build the COTWOCRConsole application that works as companion to track harvests during theHunter COTW game :)
+This repository mantains the Visual Studio solution used to build the COTWOCRConsole application that works as companion to track harvests during [theHunter COTW game](http://callofthewild.thehunter.com/en) :)
 
 This is what it looks like:
 
